@@ -10,9 +10,7 @@ Macでpyenv/pipでTensorFlowをインストールしましたので、このフ�
 
 元の論文[Grammar as a Foreign Language](https://arxiv.org/abs/1412.7449)の2.1のところに書いたように、attention matrixは
 
-```math
-a_i^t = \textrm{softmax}(u_i^t)
-```
+![attention matrix equation](https://github.com/vanhuyz/neural-machine-translation-demo/blob/master/docs/attn_equation.gif?raw=true)
 
 から得られます。TensorFlowのコードを見ると、この行です↓
 
